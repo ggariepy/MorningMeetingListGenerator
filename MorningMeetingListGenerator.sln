@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorningMeetingListGenerator", "MorningMeetingListGenerator\MorningMeetingListGenerator.csproj", "{F202088A-D8D2-4BBE-8875-9BF3D1FB1876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorningMeetingListGenerator_TESTS", "MorningMeetingListGenerator_TESTS\MorningMeetingListGenerator_TESTS.csproj", "{A38A6FAE-DE59-4BC8-8154-6562E0AF324B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F202088A-D8D2-4BBE-8875-9BF3D1FB1876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F202088A-D8D2-4BBE-8875-9BF3D1FB1876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F202088A-D8D2-4BBE-8875-9BF3D1FB1876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F202088A-D8D2-4BBE-8875-9BF3D1FB1876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38A6FAE-DE59-4BC8-8154-6562E0AF324B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38A6FAE-DE59-4BC8-8154-6562E0AF324B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38A6FAE-DE59-4BC8-8154-6562E0AF324B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38A6FAE-DE59-4BC8-8154-6562E0AF324B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {718602DB-65C1-4503-8BDB-2FDDB095CD70}
+	EndGlobalSection
+EndGlobal

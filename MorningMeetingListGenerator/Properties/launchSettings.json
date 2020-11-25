@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MorningMeetingListGenerator": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\git\\MorningMeetingListGenerator\\MorningMeetingListGenerator"
+    }
+  }
+}
