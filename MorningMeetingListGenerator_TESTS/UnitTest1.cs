@@ -1,9 +1,7 @@
-using System;
-using Xunit;
-using Xunit.Abstractions;
 using MorningMeetingListGenerator;
 using System.Collections.Generic;
-using System.Diagnostics;
+using Xunit;
+using Xunit.Abstractions;
 
 namespace MorningMeetingListGenerator_TESTS
 {
@@ -14,19 +12,6 @@ namespace MorningMeetingListGenerator_TESTS
         public ConfigurationTests(ITestOutputHelper output)
         {
             this.output = output;
-        }
-
-        [Fact]
-        public void getAPIKey_DefaultKey_Match()
-        {
-            // Arrange
-            Program.GetAppSettings("appsettings.json");
-
-            // Act
-            var APIKEY = Program.GetAPIKey();
-
-            //Assert
-            Assert.Equal("6067a572-038e-4e1d-9b94-7a178517055a", APIKEY);
         }
 
         [Fact]
@@ -59,10 +44,10 @@ namespace MorningMeetingListGenerator_TESTS
                 Assert.True(member.Name.Length > 0);
                 Assert.True(member.AttendeeType.Length > 0);
                 output.WriteLine($"\tRaw data: {member.Name} : {member.AttendeeType}");
-                if (member.Name == "Lucas Carder")
+                if (member.Name == "Alex Trebek")
                 {
                     Assert.True(member.AttendeeType.ToLower() == "boss");
-                    output.WriteLine("\tLucas Carder is the boss!");
+                    output.WriteLine("\tAlex Trebek is the boss!");
                 }
                 else
                 {
@@ -127,7 +112,7 @@ namespace MorningMeetingListGenerator_TESTS
             bool bossIncluded = false;
             foreach (var attendee in todaysAttendees)
             {
-                if (attendee == "Lucas Carder")
+                if (attendee == "Alex Trebek")
                 {
                     bossIncluded = true;
                 }
@@ -160,7 +145,7 @@ namespace MorningMeetingListGenerator_TESTS
             bool bossIncluded = false;
             foreach (var attendee in todaysAttendees)
             {
-                if (attendee == "Lucas Carder")
+                if (attendee == "Alex Trebek")
                 {
                     bossIncluded = true;
                 }
